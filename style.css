@@ -1,0 +1,681 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    rgb(121, 127, 251),
+    rgb(134, 232, 251)
+  );
+  width: auto;
+  height: 700px;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  width: 90%;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+}
+.firstanchor {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.main-div-one {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 2rem;
+}
+.inner-div-one {
+  background-color: white;
+  width: 80%;
+  padding: 2%;
+  border-radius: 1rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.innest-div {
+  width: 30%;
+  margin-top: 4rem;
+}
+
+.everybodystyling {
+  font-weight: 500;
+}
+.namestyling {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.juniorstyling {
+  margin-top: 1.5rem;
+}
+.lasttext {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: gray;
+  line-height: 1.6;
+}
+
+.iconsdiv {
+  margin-top: 2rem;
+}
+.inner-icons-div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: gray;
+}
+.social-logos {
+  background-color: rgb(231, 230, 230);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+.social-logos img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.social-main {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.personal-image {
+  height: 90%;
+}
+.second-div-back-color {
+  background-color: #f0eded;
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem;
+  padding-top: 300px;
+  padding-bottom: 5rem;
+}
+.myself-text {
+  font-size: 2rem;
+}
+.inappropriate-text {
+  color: gray;
+  margin-top: 1rem;
+  width: 80%;
+  font-size: 1.1rem;
+}
+.three-cards {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.card-divs {
+  padding: 1rem;
+  border: ridge 0.2px;
+  background-color: white;
+}
+
+.million-text {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+}
+.donation-text {
+  color: gray;
+  font-size: medium;
+  font-weight: 540;
+  margin-top: 0.5rem;
+}
+.label-progress {
+  display: grid;
+}
+
+.border-progress {
+  margin-top: 0.5rem;
+  border: solid 0.2rem white;
+  border-radius: 1rem;
+}
+.back-gray-progress {
+  background-color: rgb(209, 206, 206);
+  width: 35rem;
+  border-radius: 1rem;
+  height: 0.7rem;
+}
+.back-gradient {
+  background-image: linear-gradient(to right, #7a7ffb, #86dffb);
+  width: 85%;
+  border-radius: 1rem;
+  height: 0.7rem;
+}
+.back-gradient-photoshop {
+  background-image: linear-gradient(to right, #7a7ffb, #86dffb);
+  width: 90%;
+  border-radius: 1rem;
+  height: 0.7rem;
+}
+.back-gradient-illustrator {
+  background-image: linear-gradient(to right, #7a7ffb, #86dffb);
+  width: 70%;
+  border-radius: 1rem;
+  height: 0.7rem;
+}
+.back-gradient-sublime {
+  background-image: linear-gradient(to right, #7a7ffb, #86dffb);
+  width: 95%;
+  border-radius: 1rem;
+  height: 0.7rem;
+}
+.back-gradient-sketch {
+  background-image: linear-gradient(to right, #7a7ffb, #86dffb);
+  width: 75%;
+  border-radius: 1rem;
+  height: 0.7rem;
+}
+.progress-label-text {
+  font-weight: 550;
+  font-size: large;
+  margin-top: 1rem;
+}
+.third-div-back-color {
+  background-color: #e1e1e2;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.text-centred {
+  text-align: center;
+}
+.offering-text {
+  font-size: 1.8rem;
+  font-weight: 790;
+  text-align: center;
+}
+.fifty-percent {
+  margin-top: 1rem;
+  font-size: medium;
+  color: #877783;
+  width: 50%;
+}
+.centred-p-tag {
+  display: flex;
+  justify-content: center;
+}
+.another-three-cards {
+  margin-top: 5rem;
+}
+.offering-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.offering-card-css {
+  background-color: white;
+  padding: 2rem;
+  display: grid;
+  justify-content: start;
+  text-align: left;
+  width: 20rem;
+  border-radius: 1rem;
+}
+.offering-card-h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.offering-card-p {
+  width: 80%;
+  margin-top: 1.5rem;
+}
+.fourth-div-back-color {
+  background-color: #f0eded;
+  padding: 5rem;
+  text-align: center !important;
+}
+.links-tags {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+.link-a-tags {
+  margin-top: 4rem;
+  color: black;
+  font-size: small;
+  display: flex;
+  gap: 2rem;
+}
+.link-a-tags-first {
+  margin-top: 4rem;
+  color: #7a7ffb;
+  font-size: small;
+  display: flex;
+  gap: 2rem;
+}
+.three-img-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.image-cards {
+  width: 16rem;
+  margin-bottom: 1rem;
+}
+.client-text {
+  margin-top: 1rem;
+  color: #877783;
+}
+.client-h1 {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.button-load {
+  background-image: linear-gradient(to right, #7a7ffb, #86dffb);
+  margin-top: 5rem;
+  border: none;
+  padding: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  width: 13rem;
+}
+.nav-two {
+  display: none;
+}
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.footer-elements {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.p-footer {
+  color: gray;
+  font-size: small;
+  margin-top: 2rem;
+}
+.p-two-footer {
+  color: gray;
+  font-size: small;
+  margin-top: 1rem;
+}
+.purple-text-Colorlib {
+  color: #7a7ffb;
+  font-size: small;
+  margin-top: 0.3rem;
+}
+.p-footer-updated {
+  color: gray;
+  font-size: small;
+  margin-top: 2rem;
+}
+.input-footer {
+  margin-top: 1rem;
+  background-color: transparent;
+  border: solid gray 0.1px;
+  width: 15rem;
+  height: 1.15rem;
+  padding: 0.3rem;
+  font-size: x-small;
+  color: white;
+}
+.button-footer {
+  padding: 0.26rem;
+  width: 2rem;
+  background-image: linear-gradient(to right, #7a7ffb, #86dffb);
+  border: none;
+  color: white;
+}
+.img-arrow {
+  width: 1rem;
+  height: 1rem;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 5rem;
+  color: white;
+}
+.size-footer-img {
+  margin-top: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+.images-footer {
+  display: flex;
+  gap: 1rem;
+}
+.testimonial-text {
+  color: gray;
+  font-size: 1.2rem;
+}
+.testimonial-h1 {
+  margin-top: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.checked {
+  color: orange;
+}
+.flx {
+  display: flex;
+  margin-top: 1rem;
+}
+.span-fa {
+  display: flex;
+  align-items: center;
+}
+.input-i {
+  display: flex;
+  height: 2rem;
+  border: solid #7a7ffb 1px;
+  padding: 0 0.8rem;
+  padding-top: 0.8rem;
+  background-image: linear-gradient(to right, #7a7ffb, #86dffb);
+}
+.input-email {
+  background-color: transparent;
+  border: gray solid 0.5px;
+  padding: 2%;
+  width: 18rem;
+  font-size: small;
+}
+
+@media screen and (min-width: 2000px) {
+  .main-div-one {
+    margin-left: 30rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .offering-card-css {
+    background-color: white;
+    padding: 2rem;
+    display: grid;
+    justify-content: start;
+    text-align: left;
+    width: 10rem;
+    border-radius: 1rem;
+  }
+  .three-cards {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+   }
+  .back-gray-progress {
+    background-color: rgb(209, 206, 206);
+    width: 25rem;
+    border-radius: 1rem;
+    height: 0.7rem;
+  }
+  .personal-image {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .images-footer {
+    display: flex;
+    gap: 0.1rem;
+  }
+  .p-footer {
+    color: gray;
+    font-size: small;
+    margin-top: 2rem;
+    width: 60%;
+  }
+  .offering-card-css {
+    background-color: white;
+    padding: 2rem;
+    display: grid;
+    justify-content: start;
+    text-align: left;
+    width: 10rem;
+    border-radius: 1rem;
+  }
+  .offering-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .personal-image {
+    width: 90%;
+    height: 90%;
+  }
+  .back-gray-progress {
+    background-color: rgb(209, 206, 206);
+    width: 10rem;
+    border-radius: 1rem;
+    height: 0.7rem;
+  }
+  .inappropriate-text {
+    color: gray;
+    margin-top: 1rem;
+    width: 95%;
+    font-size: 1.1rem;
+  }
+  .three-cards {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+   }
+  .image-cards {
+    width: 12rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+  .input-email {
+    background-color: transparent;
+    border: gray solid 0.5px;
+    padding: 2%;
+    width: 12rem;
+    font-size: small;
+  }
+  .main-footer {
+    justify-content: space-between;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+  }
+}
+@media screen and (max-width: 768px) {
+  .input-email {
+    background-color: transparent;
+    border: gray solid 0.5px;
+    padding: 2%;
+    width: 100%;
+    font-size: small;
+  }
+  .another {
+    margin-top: 4rem;
+  }
+  .p-footer {
+    color: gray;
+    font-size: small;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .footer-h1 {
+    margin-top: 2rem;
+  }
+  .main-footer {
+    display: grid;
+    justify-content: space-between;
+    background-color: black;
+    padding: 2rem;
+    color: white;
+  }
+  .footer {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-elements {
+    display: grid;
+    width: 100%;
+  }
+
+  .link-a-tags {
+    margin-top: 4rem;
+    font-size: small;
+    display: flex;
+    width: auto;
+    gap: 2rem;
+  }
+  .image-cards {
+    width: 16rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+  .three-img-cards {
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+  }
+  .offering-cards {
+    display: grid;
+    padding: 0rem;
+  }
+  .offering-card-css {
+    width: auto;
+    border-radius: 0rem;
+    margin-top: 2rem;
+  }
+  .inappropriate-text {
+    color: gray;
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  .card-divs {
+    padding: 1rem;
+    border: ridge 0.2px;
+    background-color: white;
+    margin-top: 1rem;
+  }
+  .three-cards {
+    margin-top: 1rem;
+    display: contents;
+    width: 100%;
+  }
+  .main-div-one {
+    display: flex;
+    justify-content: center;
+    position: static;
+    margin-top: 2rem;
+  }
+  .second-div-back-color {
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .personal-image {
+    width: 100%;
+    height: 90%;
+  }
+  .inner-div-one {
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+    border-radius: 0rem;
+    color: black;
+    display: grid;
+    justify-content: center !important;
+    margin: 2rem;
+  }
+  .innest-div {
+    width: 100%;
+    margin-top: 1rem;
+    display: block;
+    justify-content: center;
+  }
+  header {
+    position: static;
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgb(255, 255, 255)
+    );
+    width: auto;
+    height: 0%;
+    color: white;
+  }
+  .nav-one {
+    display: none;
+  }
+  .nav-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: auto;
+  }
+  .i-bars {
+    color: white;
+    font-size: 2rem;
+  }
+  .back-gray-progress {
+    background-color: rgb(209, 206, 206);
+    width: 100%;
+    border-radius: 1rem;
+    height: 0.7rem;
+  }
+  .images-footer {
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .back-gradient {
+    height: 0.5rem;
+  }
+  .back-gradient-photoshop {
+    height: 0.5rem;
+  }
+  .back-gradient-illustrator {
+    height: 0.5rem;
+  }
+  .back-gradient-sublime {
+    height: 0.5rem;
+  }
+  .back-gradient-sketch {
+    height: 0.5rem;
+  }
+  .second-div-back-color {
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .back-gray-progress {
+    background-color: rgb(209, 206, 206);
+    width: 100%;
+    border-radius: 1rem;
+    height: 0.5rem;
+  }
+}
